@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chip Comm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="star-container">
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+        <div class="shooting-stars">
+            <span class="shooting-star"></span>
+            <span class="shooting-star"></span>
+            <span class="shooting-star"></span>
+        </div>
+    </div>
+
+    <header>
+        <div class="logo-container">
+            <h1 class="rmk-text">RMK ENGINEERING COLLEGE</h1>
+            <h2 class="gradient-text">Department of Electronics and Communication <br />
+                (Advanced Communication Technology) and VLSI Design</h2>
+            <h3 class="presents-text">Presents</h3>
+            <h1 class="glow">𝕮𝖍𝖎𝖕𝕮𝖔𝖒𝖒</h1>
+            <img src="rmk.jpeg" alt="RMK Logo" class="logo" />
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">☰</button>
+            <div class="dropdown-content">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Events</a>
+                <a href="#">Bus</a>
+                <a href="#">Register</a>
+                <a href="#">Login</a>
+            </div>
+        </div>
+        
+    </header>
+
+    <section class="animations">
+        <div class="animation-box" id="calendar" onclick="showCountdown()">
+
+            <h3>Countdown</h3>
+            
+                <p id="countdown-timer">Loading...</p>
+            
+            
+        </div>
+        <div class="animation-box">
+            <h3>Free Entry</h3>
+            <p>Enjoy the event for free!</p>
+        </div>
+        <div class="animation-box">
+            <h3>Location</h3>
+            <p>Find us at RMK ENGINEERING College.</p>
+        </div>
+    </section>
+
+    <div id="countdown-container" class="hidden"></div>
+
+    <section class="actions">
+        <button class="btn">On-spot Registration</button>
+        <button class="btn">Login</button>
+    </section>
+
+    <footer>
+        <p>© 2025 Chip Comm. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
